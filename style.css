@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.icon_bar {
+    position: relative;
+}
+.icon_bar .fa {
+    margin: 1em;
+}
+.icon_bar .fa {
+    font-size: 30px;
+}
+.icon_times .fa {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    right: 86%;
+    top: 18%;
+    font-size: 25px;
+}
+.navigator {
+    width: 0;
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    transition: 3s;
+}
+.navigator ul {
+    list-style-type: none;
+}
+.navigator li {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.navigator a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navigator .fa {
+    font-size: 23px;
+}
+.text_header {
+    margin-left: 15em;
+    width: 90%;
+    height: 100%; 
+}
+.text_wrap {
+   width: 80%;
+}
+.text_wrap h1 {
+    text-align: center;
+}
+.text_wrap p {
+    margin-top: 20px;
+}
+.text_wrap h3 {
+    margin-top: 10px;
+}
+.text_wrap img {
+    width: 100%;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: 2s;
+}
