@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Lora:ital@1&family=Playfair+Display:ital,wght@1,800&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(127, 165, 198, 0.493);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+    text-align: center;
+}
+.box {
+    width: 200px;
+    padding: 2.5em;
+    border: 1px solid rgba(0, 0, 0, 0.409);
+    cursor: pointer;
+}
+h3 {
+    color: rgba(0, 0, 0, 0.627);
+}
